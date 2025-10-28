@@ -1,3 +1,5 @@
+[![smithery badge](https://smithery.ai/badge/@sjhangiani12/citibike_mcp)](https://smithery.ai/server/@sjhangiani12/citibike_mcp)
+
 **Overview**
 - Purpose: Smithery-compatible TypeScript MCP server exposing a tool to find the nearest Citi Bike stations by distance and ebike/classic availability.
 - Data: Citi Bike GBFS feeds: `station_status.json` and `station_information.json`.
@@ -6,6 +8,14 @@
 - Prereq: Node.js 18+ and a Smithery account/API key.
 - Dev (requires Smithery CLI): `npm run dev` (port-forwards to Smithery Playground)
 - Deploy: Push to GitHub, then use https://smithery.ai/new to deploy the repo.
+
+### Installing via Smithery
+
+To install Citi Bike Nearby automatically via [Smithery](https://smithery.ai/server/@sjhangiani12/citibike_mcp):
+
+```bash
+npx -y @smithery/cli install @sjhangiani12/citibike_mcp
+```
 
 **Local Build**
 - Install deps: `npm install`
